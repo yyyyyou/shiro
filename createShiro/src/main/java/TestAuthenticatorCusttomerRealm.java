@@ -30,7 +30,7 @@ public class TestAuthenticatorCusttomerRealm {
         try {
             subject.login(token);//用户登录
             System.out.println(subject.isAuthenticated());
-            System.out.println("登录成功~~");
+
         } catch (UnknownAccountException e) {
             e.printStackTrace();
             System.out.println("用户名错误!!");
