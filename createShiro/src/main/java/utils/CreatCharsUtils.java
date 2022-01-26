@@ -17,6 +17,12 @@ public class CreatCharsUtils {
     }
 
     public static void main(String[] args) {
-        System.out.println(createRandomChars(5));
+
+            String randomChars = "343431@2312312";
+            System.out.println(randomChars);
+            String subString=randomChars.substring(0,randomChars.indexOf("1"));
+        System.out.println(subString);
+
+
     }
 }
